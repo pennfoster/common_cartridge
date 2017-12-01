@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sax-machine", "~> 0.2.1"
-  spec.add_dependency "rubyzip", "~> 1.1.6", ">= 1.1"
+  spec.add_dependency "rubyzip", ">= 1.2.1"
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake", "~> 10.3"

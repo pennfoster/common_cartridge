@@ -2,16 +2,16 @@ PATH
   remote: .
   specs:
     common_cartridge (1.0.0)
-      rubyzip (~> 1.1.6, >= 1.1)
+      rubyzip (>= 1.2.1)
       sax-machine (~> 0.2.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    mini_portile (0.6.2)
-    nokogiri (1.6.6.2)
-      mini_portile (~> 0.6.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
     rake (10.3.2)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
@@ -25,7 +25,7 @@ GEM
     rspec-mocks (3.0.2)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.2)
-    rubyzip (1.1.7)
+    rubyzip (1.2.1)
     sax-machine (0.2.1)
       nokogiri (~> 1.6.0)
 
@@ -37,3 +37,6 @@ DEPENDENCIES
   common_cartridge!
   rake (~> 10.3)
   rspec (~> 3.0)
+
+BUNDLED WITH
+   1.11.2
